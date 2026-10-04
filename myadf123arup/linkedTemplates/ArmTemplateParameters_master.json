@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "myadf123arup"
+		},
+		"ls_databricks_accessToken": {
+			"value": ""
+		},
+		"sql_LS_password": {
+			"value": ""
+		},
+		"LS_datalake_properties_typeProperties_url": {
+			"value": "https://arupsa.dfs.core.windows.net/"
+		},
+		"ls_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0929-180945-11xxhqci"
+		},
+		"sales_LS_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"sql_LS_properties_typeProperties_server": {
+			"value": "salesraw.database.windows.net"
+		},
+		"sql_LS_properties_typeProperties_database": {
+			"value": "azuredb"
+		},
+		"sql_LS_properties_typeProperties_userName": {
+			"value": "adminarup"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
